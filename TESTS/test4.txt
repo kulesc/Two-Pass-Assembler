@@ -1,0 +1,13 @@
+.public a, b
+.text.prvideo
+a:
+moval R1, #5
+moval R2, #3
+addal R1, R2
+.data.drugideo
+.skip 10
+b:
+.long a
+.char m, 5
+.align 4
+.end

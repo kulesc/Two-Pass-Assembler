@@ -1,0 +1,15 @@
+.public a
+.text
+intal 3
+addal R1, R2
+a:
+oral R4, R5
+ldral R2, R4, #4, #1
+callal b
+inal R1, R2
+moval R3, R4
+b:
+ldchal R1, #3
+ldclal R1, #5
+ldcal R1, b
+.end

@@ -1,0 +1,13 @@
+.public a, b
+.extern d, e
+.text.prvi
+a:
+.long #5, a
+.char m, n
+b:
+.align 6
+.data.drugi
+c:
+.word 1
+.end
+.bss

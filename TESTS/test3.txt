@@ -1,0 +1,18 @@
+.public a, b
+.extern c
+.text
+a:
+.long a + b, a + m
+.long f + m
+f:
+.long a - b
+.long c
+b:
+.long #5
+.char n
+.long f
+.data
+.skip 10
+m:
+.align 4
+.end
